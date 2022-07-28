@@ -5,7 +5,7 @@
 # Author: linuximple@gmail.com
 # YT: https://www.youtube.com/channel/UCW4LHmdX_qIE2lBT0_DW3VQ
 
-wget https://raw.githubusercontent.com/borecnik/openvpn-install/master/openvpn-install.sh -O vpn-inst.sh
+wget https://raw.githubusercontent.com/LinuXimple/openvpn-install/master/openvpn-install.sh -O vpn-inst.sh
 curl -o portVPN2.sh https://raw.githubusercontent.com/linuximple/openvpn-port-forwarding/main/openvpn2.sh
 sudo bash vpn-inst.sh
 sudo mkdir /etc/openvpn/ccd
@@ -28,11 +28,16 @@ echo "Assigning $ip to $client"
 
 sudo echo "ifconfig-push $ip 255.255.255.0" > /etc/openvpn/ccd/$client
 
+pubip=$(curl ifconfig.me)
+user=$(whoami)
+wd=$(pwd)
+echo "Get this OVPN file by running this on the client mashine: 'scp $user@$pubip:$wd/$client.ovpn ~ '"
+
 echo "Do you want to reboot ? [y/N]"
 read reb
 
 if [[ $reb == "y" ]]; then
-    echo "Run the second part of this script: 'sudo bash portVPN2.sh' "
+    echo "Run the second part of this script after reboot: sudo bash portVPN2.sh' "
     sleep 5
     sudo reboot
     
