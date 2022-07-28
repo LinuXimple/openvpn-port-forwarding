@@ -13,8 +13,6 @@ Run this command to install and configure:
 
 curl -o portVPNclient.sh https://raw.githubusercontent.com/LinuXimple/openvpn-port-forwarding/main/portVPNclient.sh && sudo bash portVPNclient.sh
 
-https://raw.githubusercontent.com/LinuXimple/openvpn-port-forwarding/main/portVPNclient.sh
-
 
 This is designed to run on Ubuntu server 22.04, but it should run on any Debian-based distro
 
