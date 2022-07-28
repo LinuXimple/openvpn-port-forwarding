@@ -6,7 +6,7 @@
 # YT: https://www.youtube.com/channel/UCW4LHmdX_qIE2lBT0_DW3VQ
 
 wget https://raw.githubusercontent.com/LinuXimple/openvpn-install/master/openvpn-install.sh -O vpn-inst.sh
-curl -o portVPN2.sh https://raw.githubusercontent.com/linuximple/openvpn-port-forwarding/main/openvpn2.sh
+curl -o portVPN2.sh https://raw.githubusercontent.com/linuximple/openvpn-port-forwarding/main/portvpn2.sh
 sudo bash vpn-inst.sh
 sudo mkdir /etc/openvpn/ccd
 sudo mkdir /etc/iptables/
