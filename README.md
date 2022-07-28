@@ -11,3 +11,8 @@ Run this command to install and configure:
 
 
 This is designed to run on Ubuntu server 22.04, but it should run on any Debian-based distro
+
+
+Please read the script before running it.
+Run it on a dedicated machine because it may interfere with other services.
+There is no automated way to uninstall.
