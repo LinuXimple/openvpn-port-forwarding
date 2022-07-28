@@ -64,5 +64,5 @@ if [[ $confirm2 == "N" ]]; then
 fi
 
 
-curl -o reapply.sh https://raw.githubusercontent.com/linuximple/openvpn-port-forwarding/main/autorestore.sh && sudo bash reapply.sh
+curl -o reapply.sh https://raw.githubusercontent.com/LinuXimple/openvpn-port-forwarding/main/reapply.sh && sudo bash reapply.sh
 
