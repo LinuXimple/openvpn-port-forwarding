@@ -38,7 +38,7 @@ echo "Do you want to reboot ? [y/N]"
 read reb
 
 if [[ $reb == "y" ]]; then
-    echo "Run the second part of this script after reboot: sudo bash portVPN2.sh' "
+    echo "Run the second part of this script after reboot: sudo bash portVPN2.sh "
     sleep 5
     sudo reboot
     
