@@ -7,12 +7,13 @@
 
 sudo touch /usr/local/sbin/vpn-autoconnect.sh.sh
 sudo echo "#!/bin/bash" > /usr/local/sbin/vpn-autoconnect.sh
+wd=$(pwd)
 
-echo "Enter the path to the .OVPN file [Default: /root/client.ovpn]"
+echo "Enter the path to the .OVPN file [Default: wd]"
 read path
 
 if [[ $path == "" ]]; then
-    path="/root/client.ovpn"
+    path="wd"
 fi
 
 
