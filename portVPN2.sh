@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # I made this script mainly for myself and I only published it because I didnt find anything similar on the internet and I wanted to help others. 
-# I know that its very badly written but I dont expect that more than a few people will ever use it.
+# I know that its very badly written but I dont expect that more than a few people will ever use it. 
 # Author: linuximple@gmail.com
 # YT: https://www.youtube.com/channel/UCW4LHmdX_qIE2lBT0_DW3VQ
 
