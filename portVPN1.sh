@@ -31,6 +31,7 @@ sudo echo "ifconfig-push $ip 255.255.255.0" > /etc/openvpn/ccd/$client
 pubip=$(curl ifconfig.me)
 user=$(whoami)
 wd=$(pwd)
+clear
 echo "Get this OVPN file by running this on the client mashine: 'scp $user@$pubip:$wd/$client.ovpn ~ '"
 
 echo "Do you want to reboot ? [y/N]"
