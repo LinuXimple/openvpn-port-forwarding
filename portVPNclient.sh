@@ -5,6 +5,7 @@
 # Author: linuximple@gmail.com
 # YT: https://www.youtube.com/channel/UCW4LHmdX_qIE2lBT0_DW3VQ
 
+sudo apt install openvpn
 sudo touch /usr/local/sbin/vpn-autoconnect.sh.sh
 sudo echo "#!/bin/bash" > /usr/local/sbin/vpn-autoconnect.sh
 wd=$(pwd)
